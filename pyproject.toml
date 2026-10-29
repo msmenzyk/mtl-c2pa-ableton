@@ -3,7 +3,7 @@ name = "mtl-c2pa-server"
 version = "0.1.0"
 description = "Local HTTP C2PA reader for the mtl-c2pa-ableton Max for Live device."
 authors = [
-    {name = "MusicTech Lab"}
+    {name = "Mariusz Smenżyk"}
 ]
 readme = "README.md"
 requires-python = ">=3.10"

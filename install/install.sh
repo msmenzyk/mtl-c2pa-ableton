@@ -8,7 +8,7 @@ set -euo pipefail
 
 POETRY_BIN="$(command -v poetry || echo /opt/homebrew/bin/poetry)"
 LAUNCH_AGENTS_DIR="${HOME}/Library/LaunchAgents"
-LOG_DIR="${HOME}/Library/Logs/musictechlab"
+LOG_DIR="${HOME}/Library/Logs/Mariusz Smenżyk"
 LABEL="io.musictechlab.c2pa-http"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_DIR="$(cd "${SCRIPT_DIR}/.." && pwd)"

@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import Any
 
 # Extension -> MIME type mapping for formats that commonly carry C2PA manifests.
-# Audio focus (MP3 / WAV / FLAC) reflects the primary MusicTech Lab use case
+# Audio focus (MP3 / WAV / FLAC) reflects the primary Mariusz Smenżyk use case
 # (e.g. Google Lyria AI-generated tracks), but image/video formats are included
 # so the same MCP can be reused across media types.
 MIME_TYPES: dict[str, str] = {

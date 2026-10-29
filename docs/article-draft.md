@@ -95,18 +95,18 @@ You need Ableton Live with Max for Live (Live Suite, or Standard + the M4L add-o
 
 ```bash
 # 1. Clone and install (one-time)
-git clone https://github.com/musictechlab/mtl-c2pa-ableton.git
+git clone https://github.com/msmenzyk/mtl-c2pa-ableton.git
 cd mtl-c2pa-ableton && poetry install
 
 # 2. Auto-start it on login
-git clone https://github.com/musictechlab/mtl-c2pa-ableton.git
+git clone https://github.com/msmenzyk/mtl-c2pa-ableton.git
 cd mtl-c2pa-ableton && bash install/install.sh
 
 # 3. Drop the device on a track
 # Drag device/MTL_C2PA_Ableton_PoC.amxd onto any audio track in Live.
 ```
 
-That's it. Click a Lyria clip — see the manifest. Full setup detail in the [repo README](https://github.com/musictechlab/mtl-c2pa-ableton).
+That's it. Click a Lyria clip — see the manifest. Full setup detail in the [repo README](https://github.com/msmenzyk/mtl-c2pa-ableton).
 
 ## Roadmap
 
@@ -122,6 +122,6 @@ There's also adjacent work on [extracting metadata from raw `.als` / `.asd` file
 
 ---
 
-**Try it, break it, send feedback.** The device is MIT-licensed, the repo is [musictechlab/mtl-c2pa-ableton](https://github.com/musictechlab/mtl-c2pa-ableton). Issues and PRs welcome.
+**Try it, break it, send feedback.** The device is MIT-licensed, the repo is [Mariusz Smenżyk/mtl-c2pa-ableton](https://github.com/msmenzyk/mtl-c2pa-ableton). Issues and PRs welcome.
 
 <!-- CTA: insert mtl/standard CTA via cta-generator skill -->

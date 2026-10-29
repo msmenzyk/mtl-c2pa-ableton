@@ -35,7 +35,7 @@ install/
 fixtures/                       <- C2PA-signed test assets
 docs/
   architecture.md               <- Mermaid diagrams + design rationale
-  article-draft.md              <- blog post outline (musictechlab.io)
+  article-draft.md              <- blog post outline (mtl.dev)
   img/                          <- rendered SVGs
 ```
 
@@ -58,7 +58,7 @@ docs/
 | Install launchd autostart | `bash install/install.sh` |
 | Uninstall | `bash install/uninstall.sh` |
 | Verify service running | `curl http://127.0.0.1:8765/health` |
-| Tail logs | `tail -f ~/Library/Logs/musictechlab/c2pa-http.{out,err}.log` |
+| Tail logs | `tail -f ~/Library/Logs/Mariusz Smenżyk/c2pa-http.{out,err}.log` |
 
 ## Important constraints
 
@@ -68,5 +68,5 @@ docs/
 
 ## Related repos
 
-- [mtl-c2pa-mcp](https://github.com/musictechlab/mtl-c2pa-mcp) — sibling MCP server that exposes the same C2PA reader to Claude Code.
-- [musictechlab/mtl-madebyikigai-ableton-api](https://github.com/musictechlab/mtl-madebyikigai-ableton-api) — reference architecture for M4L → HTTP patterns.
+- [mtl-c2pa-mcp](https://github.com/msmenzyk/mtl-c2pa-mcp) — sibling MCP server that exposes the same C2PA reader to Claude Code.
+- [Mariusz Smenżyk/mtl-madebyikigai-ableton-api](https://github.com/msmenzyk/mtl-madebyikigai-ableton-api) — reference architecture for M4L → HTTP patterns.
