@@ -1,10 +1,9 @@
 # mtl-c2pa-ableton
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![CI](https://github.com/musictechlab/mtl-c2pa-ableton/actions/workflows/ci.yml/badge.svg)](https://github.com/musictechlab/mtl-c2pa-ableton/actions/workflows/ci.yml)
+[![CI](https://github.com/msmenzyk/mtl-c2pa-ableton/actions/workflows/ci.yml/badge.svg)](https://github.com/msmenzyk/mtl-c2pa-ableton/actions/workflows/ci.yml)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 [![Code style: Ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://docs.astral.sh/ruff/)
-[![Built by MusicTech Lab](https://musictechlab.io/oss/build-by-musictechlab.io.svg)](https://musictechlab.io)
 
 Max for Live device that displays the [C2PA](https://c2pa.org/) manifest summary for the currently selected audio clip in Ableton Live. Click a clip — see who made it, what tool generated it, whether it's AI, what watermarks were applied, and who signed the claim.
 
@@ -36,7 +35,7 @@ The repo is self-contained: M4L device + Python HTTP server. One clone, one inst
 ### 1. Clone and install dependencies
 
 ```bash
-git clone https://github.com/musictechlab/mtl-c2pa-ableton.git
+git clone https://github.com/msmenzyk/mtl-c2pa-ableton.git
 cd mtl-c2pa-ableton
 poetry install
 ```
@@ -114,18 +113,18 @@ MIT — see [LICENSE](LICENSE).
 
 ## Related
 
-- [mtl-c2pa-mcp](https://github.com/musictechlab/mtl-c2pa-mcp) — sibling MCP server that exposes the same C2PA reader to Claude Code
-- [Article: C2PA in Music — A Claude MCP for Reading Content Provenance](https://musictechlab.io/blog/music-data/c2pa-in-music-mcp) (2026-05-28)
-- [Article: Connecting Your Max for Live Device to a Cloud API](https://musictechlab.io/blog/software-development/connecting-your-max-for-live-device-to-a-cloud-api) — the reference architecture this device borrows from
+- [mtl-c2pa-mcp](https://github.com/msmenzyk/mtl-c2pa-mcp) — sibling MCP server that exposes the same C2PA reader to Claude Code
+- [Article: C2PA in Music — A Claude MCP for Reading Content Provenance](https://mtl.dev/blog/music-data/c2pa-in-music-mcp) (2026-05-28)
+- [Article: Connecting Your Max for Live Device to a Cloud API](https://mtl.dev/blog/software-development/connecting-your-max-for-live-device-to-a-cloud-api) — the reference architecture this device borrows from
 
 ---
 
 <div align="center">
-  MusicTech Lab - Rockstars Developers dedicated to the Music Industry<br>
-  <a href="https://musictechlab.io">Website</a>
+  Mariusz Smenżyk - Rockstars Developers dedicated to the Music Industry<br>
+  <a href="https://mtl.dev">Website</a>
   <span> | </span>
-  <a href="https://linkedin.com/company/musictechlab">LinkedIn</a>
+  <a href="https://linkedin.com/company/Mariusz Smenżyk">LinkedIn</a>
   <span> | </span>
-  <a href="https://musictechlab.io/contact">Let's talk</a><br>
-  Crafted by <a href="https://musictechlab.io">musictechlab.io</a>
+  <a href="https://mtl.dev/contact">Let's talk</a><br>
+  Crafted by <a href="https://mtl.dev">mtl.dev</a>
 </div>
